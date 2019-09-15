@@ -8,7 +8,7 @@ namespace ConsoleApps
 {
     public delegate void DelRecPer(double h, double w);
     public delegate void DelRecArea(double h, double w);
-    class MyDelegateClass
+    class MultiCastDelegate
     {
         public void RecPer(double h, double w)
         {
@@ -21,7 +21,7 @@ namespace ConsoleApps
 
         static void Main(string[] arg)
         {
-            MyDelegateClass obj = new MyDelegateClass();
+            MultiCastDelegate obj = new MultiCastDelegate();
             //  obj.RecArea(2, 3);
             // obj.RecPer(2, 3);
             //DelRecPer objDel = new DelRecPer(obj.RecPer);

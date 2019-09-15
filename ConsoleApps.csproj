@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApps.MyDelegateClass</StartupObject>
+    <StartupObject>ConsoleApps.Reverse_CountEle</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyDelegateClass.cs" />
+    <Compile Include="Temp.cs" />
+    <Compile Include="testDelegatePractise.cs" />
+    <Compile Include="SumOfNumber.cs" />
+    <Compile Include="MultiCastDelegate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseAString.cs" />
+    <Compile Include="Reverse_CountEle.cs" />
+    <Compile Include="SwitchCase.cs" />
+    <Compile Include="GetLongestPalindromeClass.cs" />
     <Compile Include="TestProgram.cs" />
   </ItemGroup>
   <ItemGroup>
