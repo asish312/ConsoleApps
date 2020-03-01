@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExceptionClass.cs" />
+    <Compile Include="MyConstructorClass.cs" />
     <Compile Include="Temp.cs" />
     <Compile Include="testDelegatePractise.cs" />
     <Compile Include="SumOfNumber.cs" />
