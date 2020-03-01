@@ -56,7 +56,7 @@ FROM substring('abcde', 2, 3)
 
 
 -- Table variables
-WITH
+WITH 
   t1(v1, v2) AS (SELECT 1, 2),
   t2(w1, w2) AS (
     SELECT v1 * 2, v2 * 2
@@ -279,4 +279,6 @@ select *from(select *,Row_Number()over(partition by Sal order by sal desc) as t
  from tbl_Employee) temp
  where temp.t=2
 
-
+ -------------------------------------------------------------------------------------------------------------
+ --3/2/2020:
+ 
