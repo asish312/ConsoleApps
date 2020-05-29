@@ -10,6 +10,7 @@ namespace ConsoleApps
     {
         static void Main()
         {
+			//Add the list
             List<int> mylist = new List<int>();
             mylist.Add(0);
             mylist.Add(1);
