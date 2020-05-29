@@ -13,6 +13,7 @@ namespace ConsoleApps
             Console.WriteLine("GetLongestPalindrome for"+ "12343215467 " + GetLongestPalindrome("12343215467"));
             Console.ReadLine();
         }
+		
 
         private static string GetLongestPalindrome(string input)
         {
