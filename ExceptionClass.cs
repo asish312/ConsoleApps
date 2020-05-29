@@ -18,6 +18,7 @@ namespace ConsoleApps
             }
             catch (DivideByZeroException ex)
             {
+                
                 Console.WriteLine("ArgumentException caught!");
             }
             catch (Exception ex)
